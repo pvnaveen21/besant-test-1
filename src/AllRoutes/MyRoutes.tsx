@@ -1,7 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom"
 import Log from "../Log"
 import Home from "../Home"
-import Footer from "../Footer"
 import Layout from "../Layout"
 import AuthGuard from "../AuthGuard"
 import ListRendering from "../ListRendering"

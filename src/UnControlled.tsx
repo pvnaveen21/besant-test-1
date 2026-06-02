@@ -1,5 +1,4 @@
 import { useRef } from "react"
-import Log from "./Log"
 
 function UnControlled() {
     const userRef:any = useRef("")

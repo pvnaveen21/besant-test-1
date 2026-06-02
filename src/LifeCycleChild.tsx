@@ -1,8 +1,7 @@
-import { Component, PureComponent, type ReactNode } from "react";
-import Log from "./Log";
+import { PureComponent } from "react";
 
 export default class LifeCycleChild extends PureComponent{
-    constructor(prop){
+    constructor(prop:any){
         super(prop)
         console.log("Child constructor");    
     }
@@ -26,7 +25,7 @@ export default class LifeCycleChild extends PureComponent{
         return(
             <>
                 <h1>Life Cycle Child</h1>
-                <p>props - {this.props.name}</p>
+                {/* <p>props - {this.props.name}</p> */}
             </>
         )
         

@@ -1,15 +1,11 @@
 import { Fragment } from "react/jsx-runtime"
 import "./About.css"
-import secureDerma from "./assets/images/securederma.png"
 import { useState } from 'react'
 import Footer from "./Footer"
 function About(){
-     const [name, setName] = useState('Added')
      const [status, setStatus] = useState(false)
-     const [parentName, setParentName] =useState('Naveen pv')
-     const myFun = () =>{
-        setName('Naveen pv')
-     }
+     const [parentName] =useState('Naveen pv')
+
 
     const toggleFun = () =>{
         setStatus(!status)

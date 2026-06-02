@@ -3,7 +3,7 @@ import Step2 from "./Step2"
 import UserContext from "./UserContext"
 
 function Step1(){
-    const [state, setState] = useState("Naveen pv")
+    const [state] = useState("Naveen pv")
     return(
         <>
         <UserContext.Provider value={state}>      
