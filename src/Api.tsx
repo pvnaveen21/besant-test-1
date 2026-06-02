@@ -13,6 +13,7 @@ function Api() {
         axios.get("https://jsonplaceholder.typicode.com/posts/")
             .then(response => setData(response.data))
             .catch(error => console.error("Error fetching data:", error));  
+
     }
 
     useEffect(() => {   
@@ -22,6 +23,7 @@ function Api() {
     return (
         <>
         <h1>API Component</h1>
+        <p>Naveen pv</p>
         <ul>
             {data.map((item:any) => <li key={item.id}>{item.title}</li>)}
         </ul>   
